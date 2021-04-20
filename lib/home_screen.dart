@@ -29,7 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 onPressed: () {
                   Navigator.of(context).push(
                     new MaterialPageRoute(
-                      builder: (context) => ImageCollageWidget(),
+                      builder: (context) => ImageCollageSample(),
                     ),
                   );
                 },
